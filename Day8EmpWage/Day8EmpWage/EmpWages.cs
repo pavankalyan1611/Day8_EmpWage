@@ -18,7 +18,7 @@ namespace Day8EmpWage
         }
         public void MonthWage()
         {
-            while (totalEmpHrs <= MAX_WORKING_HOURS && totalworkingDays <= MAX_WORKING_DAYS)
+            while (totalEmpHrs <= MAX_WORKING_HOURS && totalworkingDays < MAX_WORKING_DAYS)
             {
                 totalworkingDays++;
                 Random random = new Random();
